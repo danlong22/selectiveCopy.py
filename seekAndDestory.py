@@ -1,7 +1,7 @@
 #seekAndDestroy.py - deletes files in a specified folder, and elsewhere in the directory
 #usage:
 	#create a folder called 'hitlist' in the directory this script is located in
-	#move files you want deleted into the 'trash' folder. This script will delete the 
+	#move files you want deleted into the 'hitlist' folder. This script will delete the 
 	#files from the 'hitlist' folder, and from the current working directory and it's subfolders
 
 import os, shutil, send2trash
