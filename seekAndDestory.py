@@ -24,8 +24,8 @@ for fileToDelete in filesToDelete:
 			if filename == fileToDelete:
 				filename = os.path.abspath(os.path.join(folderName, filename))
 				try:
-					shutil.move(filename, 'trash')
-					#send2trash.send2trash(filename)
+					
+					send2trash.send2trash(filename)
 					print(filename+ ' has been terminated')
 				except: 
 					print('I was unable to terminate ' + filename)
